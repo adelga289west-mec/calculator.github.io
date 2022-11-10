@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    height:100vh;
+    background-image: linear-gradient(to bottom right, rgb(177, 236, 177), rgb(193, 184, 123),rgb(240, 192, 104));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    
+    
+
+    width:35%;
+    height:90%;
+    
+
+    
+  
+    background-color: rgb(16, 36, 82);
+}
+
+#textarea{
+    width:95%;
+    height:18%;
+    background-color: rgb(25, 54, 123) ;
+    color:white;
+    font-size: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border-radius: 30px;
+    margin-left: 2.5%;
+    margin-top:10px;
+
+}
+#result{
+    width:100%;
+    height:100%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: right;
+    background-color: rgb(25, 54, 123) ;
+    font-size: 100px;
+    border: solid black;
+    color:white;
+    
+    
+    
+
+}
+::placeholder{
+    color:white;
+    opacity: 1;
+}
+.keys{
+    width:100%;
+    height:80%;
+   
+  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+  
+}
+.button{
+    width:110px;
+    height:110px;
+    background-color: rgb(197, 144, 227);
+    border-radius: 30px;
+    font-size: 40px;
+}
+.button:hover{
+    background-color: rgb(206, 177, 222);
+}
+.operator{
+    width:110px;
+    height:110px;
+    background-color: rgb(144, 202, 227);
+    border-radius: 30px;
+    font-size: 40px;
+
+}
+.operator:hover{
+    background-color: rgb(177, 210, 223);
+}
+.equalbutton{
+    width:240px;
+    height:110px;
+    background-color: lightcoral;
+    border-radius: 30px;
+    font-size: 40px;
+}
+.equalbutton:hover{
+    background-color: rgb(235, 154, 154);
+}
